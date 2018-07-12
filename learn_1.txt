@@ -26,5 +26,10 @@ learning git:
         git reset HEAD <file.name>  //cancel the file in stage
             
         git rm file.name            //delete the file in repository.//later should commit
-        
-            
+
+3.remote
+    create ssh key
+        ssh-keygen -t rsa -C "pydalao@gmail.com"
+    associate local repository to the github
+        git remote add origin git@github.com:CJPBoss/<repository name>.git
+        git push origin master      //add '-u' before origin when first use
