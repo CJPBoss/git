@@ -32,4 +32,7 @@ learning git:
         ssh-keygen -t rsa -C "pydalao@gmail.com"
     associate local repository to the github
         git remote add origin git@github.com:CJPBoss/<repository name>.git
+    push master to the remote repository
         git push origin master      //add '-u' before origin when first use
+    clone the remote repository 
+        git clone git@github.com:CJPBoss/<repository name>.git
