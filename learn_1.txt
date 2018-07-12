@@ -47,7 +47,7 @@ learning git:
         git branch                  //show the branch status
         git merge dev               //merge the 'dev' branch to current branch
         git branch -d dev           //delete dev branch
-            if merge 2 files but have conflict, must change the file and then add, commit
+            if merge 2 files but have conflict, must fix the conflict in files and then add, commit
         git log --graph --abbrev-commit --pretty=oneline
                                     //graph log
         
@@ -56,4 +56,13 @@ learning git:
         git stash apply             //restore the working directory
         git stash drop              //drop the stash's files
         git stash pop               //restore and drop
+        
+        git remote -v               //show the remote repository's info
+        git push origin branch-name //push local branch to remote repository
+        git pull                    //fetch the branch from remote repository
+        git checkout -b branch-name origin/branch-name
+                                    //create a branch associate to the remote repository
+        git branch --set-upstream branch-name origin/branch-name
+                                    //associate local branch to remote repository branch
+        
         
