@@ -47,5 +47,7 @@ learning git:
         git branch                  //show the branch status
         git merge dev               //merge the 'dev' branch to current branch
         git branch -d dev           //delete dev branch
-        feature 2 hahahah
+            if merge 2 files but have conflict, must change the file and then add, commit
+        git log --graph --abbrev-commit --pretty=oneline
+                                    //graph log
         
