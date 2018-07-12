@@ -65,4 +65,5 @@ learning git:
         git branch --set-upstream branch-name origin/branch-name
                                     //associate local branch to remote repository branch
         
+        git rebase                  //can sort the local unpushed fork commit history into a straight line. 
         
