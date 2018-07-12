@@ -7,5 +7,7 @@ learning git:
     git init                    //initialize a git repository
     git add <file>              //add the file to git repository's cache
     git commit -m <message>     //commit all the files in cache to repository
-    
+
     git status                  //show the status of repository
+    git diff                    //show the different between the files in workspace and repository
+    
