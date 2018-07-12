@@ -47,3 +47,5 @@ learning git:
         git branch                  //show the branch status
         git merge dev               //merge the 'dev' branch to current branch
         git branch -d dev           //delete dev branch
+        dev branch boss
+        
