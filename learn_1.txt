@@ -36,3 +36,14 @@ learning git:
         git push origin master      //add '-u' before origin when first use
     clone the remote repository 
         git clone git@github.com:CJPBoss/<repository name>.git
+
+4.branch
+    create
+        git checkout -b dev         //create a new branch called 'dev' and switch to it
+                                    //the same as: next 2 command
+        git branch dev              //create dev
+        git checkout dev            //switch to dev
+        
+        git branch                  //show the branch status
+        git merge dev               //merge the 'dev' branch to current branch
+        git branch -d dev           //delete dev branch
