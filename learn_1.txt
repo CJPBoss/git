@@ -1,6 +1,6 @@
 learning git:
 1.setup
-    git config --global user.name "<Your Name>"           //set user's name
+    git config --global user.name <Your Name>           //set user's name
     git config --global user.email "<email@example.com>"  //set user's email
  
 2.usage
