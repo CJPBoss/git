@@ -1,1 +1,11 @@
 learning git:
+1.setup
+    git config --global user.name "<Your Name>"           //set user's name
+    git config --global user.email "<email@example.com>"  //set user's email
+ 
+2.usage
+    git init                    //initialize a git repository
+    git add <file>              //add the file to git repository's cache
+    git commit -m <message>     //commit all the files in cache to repository
+    
+    git status                  //show the status of repository
