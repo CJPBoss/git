@@ -6,8 +6,8 @@ learning git:
 2.usage
     basic
         git init                    //initialize a git repository
-        git add <file>              //add the file to git repository's cache
-        git commit -m <message>     //commit all the files in cache to repository
+        git add <file>              //add the file to stage
+        git commit -m <message>     //commit all the files in stage to repository
     info
         git status                  //show the status of repository
         git diff                    //show the different between the files in Working Directory and repository
