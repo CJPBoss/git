@@ -19,3 +19,9 @@ learning git:
         git reset --hard HEAD~n     //per*n version
         git reset --hard <commit id>//reset to the version of commit id
         git reflog                  //show the log of your git command
+        
+        git checkout -- <file.name>
+            1.file didn't add to stage: change to the file in repository
+            2.file have added to stage: change to the file in stage
+        git reset HEAD <file.name>
+            cancel the file in stage
