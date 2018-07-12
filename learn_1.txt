@@ -66,4 +66,14 @@ learning git:
                                     //associate local branch to remote repository branch
         
         git rebase                  //can sort the local unpushed fork commit history into a straight line. 
+   
+5.tag
+        git tag <tagname> [commitid]//create a tag for commit id, default is HEAD
+        git tag -a <tagname> -m "context"
+        git show <tagname>          //show tag info
+        git tag                     //show all tag
+        git tag -d <tagname>        //delete tag
+        git push origin <tagname>   //push tag
+        git push origin --tags      //push all tags
+        git push origin :refs/tags/tagname //use it after 'git tag -d' to delete tag from remote repository
         
