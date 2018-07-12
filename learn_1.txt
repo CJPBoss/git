@@ -51,3 +51,9 @@ learning git:
         git log --graph --abbrev-commit --pretty=oneline
                                     //graph log
         
+        git stash                   //save the working directory 
+        git stash list              //show the saved files
+        git stash apply             //restore the working directory
+        git stash drop              //drop the stash's files
+        git stash pop               //restore and drop
+        
