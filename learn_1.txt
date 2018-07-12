@@ -23,5 +23,8 @@ learning git:
         git checkout -- <file.name>
             1.file didn't add to stage: change to the file in repository
             2.file have added to stage: change to the file in stage
-        git reset HEAD <file.name>
-            cancel the file in stage
+        git reset HEAD <file.name>  //cancel the file in stage
+            
+        git rm file.name            //delete the file in repository.//later should commit
+        
+            
