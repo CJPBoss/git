@@ -4,10 +4,18 @@ learning git:
     git config --global user.email "<email@example.com>"  //set user's email
  
 2.usage
-    git init                    //initialize a git repository
-    git add <file>              //add the file to git repository's cache
-    git commit -m <message>     //commit all the files in cache to repository
-
-    git status                  //show the status of repository
-    git diff                    //show the different between the files in workspace and repository
-    
+    basic
+        git init                    //initialize a git repository
+        git add <file>              //add the file to git repository's cache
+        git commit -m <message>     //commit all the files in cache to repository
+    info
+        git status                  //show the status of repository
+        git diff                    //show the different between the files in Working Directory and repository
+    reset
+        git log                     //show the log of commit 
+            git log --pretty=oneline
+        git reset --hard HEAD^      //per version
+        git reset --hard HEAD^^     //per*(|^|) version
+        git reset --hard HEAD~n     //per*n version
+        git reset --hard <commit id>//reset to the version of commit id
+        git reflog                  //show the log of your git command
